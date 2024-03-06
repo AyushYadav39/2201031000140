@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inder:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="screen-1">
+      <div class="screen-1-child" id="rectangle"></div>
+      <div class="screen-1-item"></div>
+      <img
+        class="google-search-icon-google-prod"
+        alt=""
+        src="./public/googlesearchicongoogleproductillustrationfreepng-1@2x.png"
+      />
+
+      <div class="continue-with-google">Continue with Google</div>
+      <div class="continue-with-email">Continue with Email</div>
+      <img
+        class="pngtree-email-icon-png-image-1"
+        alt=""
+        src="./public/pngtreeemailiconpngimage-1757854-1@2x.png"
+      />
+
+      <div class="or">or</div>
+      <img
+        class="flag-7321641-1280-1-icon"
+        alt=""
+        src="./public/flag7321641-1280-1@2x.png"
+      />
+
+      <div class="div">+91</div>
+      <img class="screen-1-inner" alt="" />
+
+      <div class="continue-with-mobile">Continue with mobile number</div>
+      <img
+        class="cinematography-1-1"
+        alt=""
+        src="./public/cinematography-1-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./s-c-r-e-e-n2.html";
+        });
+      }
+      </script>
+  </body>
+</html>
